@@ -67,8 +67,8 @@ export const semanas = [
       },
       {
         id: 4,
-        nombre: "Integrar con tu software contable",
-        descripcion: "Usar los 12 prompts de integración incluidos",
+        nombre: "Automatizar tus reportes más frecuentes",
+        descripcion: "Crea plantillas reutilizables usando Prompts 46-60 (Reportes y Dashboards) para tus informes mensuales, trimestrales y análisis recurrentes",
         tiempo: "3 horas"
       },
       {
