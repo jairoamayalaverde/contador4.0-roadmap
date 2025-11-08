@@ -207,6 +207,18 @@ export default function App() {
           Empieza HOY con la Semana 1. En 30 días notarás la diferencia. En 90 días, serás irreemplazable.
         </p>
       </div>
+
+      {/* --- INICIO: FOOTER AÑADIDO --- */}
+      <footer className="mt-8 pt-8 border-t border-gray-300 text-center text-sm text-gray-500">
+        <p>
+          Plan de 90 días - Roadmap es una herramienta de seguimiento desarrollada por Jairo Amaya - Full Stack Marketer como complemento del E-book Contador 4.0 sistema de Transformación con IA para Contadores
+        </p>
+        <p className="mt-2">
+          © 2025 Todos los derechos reservados
+        </p>
+      </footer>
+      {/* --- FIN: FOOTER AÑADIDO --- */}
+
     </div>
   );
 }
