@@ -121,7 +121,7 @@ export default function App() {
 
   // Estilos simples para las pestañas
   const tabStyle = "py-2 px-5 font-semibold text-center";
-  const activeTabStyle = "border-b-2 border-blue-600 text-blue-600"; [cite: 25]
+  const activeTabStyle = "border-b-2 border-blue-600 text-blue-600";
   const inactiveTabStyle = "text-gray-500 hover:text-gray-700";
 
   return (
@@ -131,23 +131,23 @@ export default function App() {
       {/* Contenedor de los botones de pestañas [cite: 22] */}
       <div className="mb-6 flex space-x-4 border-b border-gray-200">
         <button
-          [cite_start]onClick={() => setActiveTab('roadmap')} [cite: 24]
+          onClick={() => setActiveTab('roadmap')} 
           className={`${tabStyle} ${activeTab === 'roadmap' ? activeTabStyle : inactiveTabStyle}`}
         >
-          Roadmap [cite: 27]
+          Roadmap 
         </button>
         <button
-          [cite_start]onClick={() => setActiveTab('guias')} [cite: 32]
+          onClick={() => setActiveTab('guias')} 
           className={`${tabStyle} ${activeTab === 'guias' ? activeTabStyle : inactiveTabStyle}`}
         >
-          Guías Prácticas [cite: 34]
+          Guías Prácticas 
         </button>
       </div>
 
       {/* Renderizado condicional del contenido [cite: 37] */}
       <div>
-        {activeTab === 'roadmap' && <RoadmapContent />} [cite: 39]
-        {activeTab === 'guias' && <GuiasPracticas />} [cite: 41]
+        {activeTab === 'roadmap' && <RoadmapContent />} 
+        {activeTab === 'guias' && <GuiasPracticas />} 
       </div>
 
     </div>
