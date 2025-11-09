@@ -4,7 +4,7 @@ import { semanas, metricas } from './roadmapData'; // Importa los datos
 
 // --- 1. IMPORTAR GUÍAS ---
 // Importa el componente de guías que creamos
-import GuiasPracticas from './components/GuiasPracticas';
+import GuiasPracticas from './GuiasPracticas';
 
 // Clave para el localStorage
 const LOCAL_STORAGE_KEY = 'contador40_roadmap_progress';
