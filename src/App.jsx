@@ -84,7 +84,7 @@ function RoadmapContent() {
             <div className="flex items-start justify-between">
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2">
-                  {expandedWeek === semana.id ? <ChevronDown size={24} /> : <ChevronRight size={2SQUARE />}
+                  {expandedWeek === semana.id ? <ChevronDown size={24} /> : <ChevronRight size={24}
                   <h2 className="text-xl sm:text-2xl font-bold">{semana.titulo}</h2>
                 </div>
                 <p className="text-blue-100 ml-9 mb-3 text-sm sm:text-base">{semana.objetivo}</p>
